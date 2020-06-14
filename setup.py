@@ -9,7 +9,7 @@ requirements = [
 ]
 
 setup(name='ntptimenow',
-      version='0.2',
+      version='0.4',
       description='Python NTP Time Now',
       author='Wannaphong Phatthiyaphaibun',
       author_email='wannaphong@kkumail.com',
@@ -23,5 +23,6 @@ setup(name='ntptimenow',
           'Operating System :: OS Independent',
           'Topic :: System :: Networking :: Time Synchronization'
       ],
-      long_description=long_description
+      long_description=long_description,
+      long_description_content_type = "text/markdown",
      )
